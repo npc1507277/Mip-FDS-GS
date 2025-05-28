@@ -1,0 +1,24 @@
+name: FDS-GS
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.8
+  - plyfile
+  - python=3.7.13
+  - pip=22.3.1
+  - pytorch=2.4.1+cu118
+  - torchaudio=2.4.1+cu118
+  - torchvision=0.19.1+cu118
+  - tqdm
+  - tensorboard
+  - tensorboardX
+  - scipy
+  - scikit-image
+  - pip:
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
+    - submodules/confidence-filter
+# KDTree:
+# https://github.com/thomgrand/torch_kdtree
