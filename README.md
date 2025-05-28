@@ -3,13 +3,19 @@
 ## Overview
 
 This work eliminates the gaussian scale mismatch phenomenon mentioned in SA-GS.
+
 We achieve much better results than SOTA (SA-GS and Mip-splatting) on Blender and Mipnerf360 datasets both same scale testing and multi-scale testing (with still single-scale training).
+
 Glad to introduce our baseline work FDS-GS (AAAI 2025) https://github.com/whoiszzj/FDS-GS.
 
 
-![Benchmarks for Mipnerf360](pics/Mipnerf360_1.png)
-!(pics/Mipnerf360_2.png)
-![Benchmarks for Blender](pics/blender_1.png)
+**Benchmarks for Mipnerf360:**
+
+![](pics/Mipnerf360_1.png)
+![](pics/Mipnerf360_2.png)
+
+**Benchmarks for Blender:**
+![](pics/blender_1.png)
 
 
 ## Installing
